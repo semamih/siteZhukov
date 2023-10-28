@@ -1,0 +1,265 @@
+@media (min-width: 960px) {
+    /* Стили для мобильных устройств */
+  }
+
+body{
+    background-color: #504646;
+    min-width: 960px;
+}
+
+/* header */
+header{
+    margin-top: 5px;
+    height: auto;
+    text-align: center;
+    width: auto;
+    max-width: 960px;
+    min-width: 960px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+} 
+header p{
+    margin:0px;
+    margin-left: 21px;
+    text-align: left;
+    font-family:Snell Roundhand;
+    font-size: 30px;
+}
+header h5{
+    margin-top: -2px;
+    margin-bottom: 25px;
+    margin-left: 26px;
+    font-size: 10px;
+    text-align: left;
+    font-family:arial;
+    color:red;
+    text-decoration: underline;
+}
+/* 25 */
+.headline{
+    padding: 10px 200px;
+    background-color:bisque;
+    color: red;
+    text-decoration: none;
+    font: Arial bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 7px;
+}
+.headbutton {
+    padding: 10px 5px;
+    background-color:bisque;
+    color: red;
+    text-decoration: none;
+    font: Arial bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 7px;
+}
+.headbutton:hover {
+        background-color:rgb(130, 20, 22);
+        color:white;
+        transition: 1s;
+} 
+.img1 {
+    margin-left: -4px;
+    width: 904px;
+    height: 284px;
+    border: 3px solid bisque; 
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-top: none;
+}
+
+/* main */
+main{
+    margin-top: -19px;
+    height: auto;
+    width: auto;
+    max-width: 960px;
+    min-width: 960px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+} 
+article{
+    background-color: white;
+    max-width: 710px;
+    min-width: 710px;
+}
+article h3{
+    color: rgb(189, 92, 2);
+    margin-left: 23px;
+}
+article p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-left: 26px;
+    text-align: justify;
+}
+aside{
+    margin-left: 735px;
+    margin-top: -1440px;
+    background-color: white;
+    max-width: 225px;
+    min-width: 225px;
+    min-height: 1450px;
+    max-height: 1450px;
+}
+aside h3{
+    margin-left: 25px;
+    margin-top: 11px;
+    text-align: left;
+    color: rgb(189, 92, 2);
+}
+.table1{
+    text-align: left;
+    background-color: rgb(250, 249, 249);
+    border: 1px solid rgba(123, 123, 123, 0.155);
+    min-width: 200px;
+    max-width: 200px;
+}
+.asidebutton {
+    border: none;
+    color: red;
+    text-decoration: none;
+    font: Arial;
+    font-size: 14px;
+    margin: 23px;
+    cursor: pointer;
+}
+.asidebutton:hover {
+        color:blue;
+        transition: 0.3s;
+} 
+
+/* article */
+hr{
+    margin-left: 26px ;
+
+}
+.img2{
+    margin-left: 26px ;
+    width: 400px;
+    height: 280px;
+}
+.p1{
+    margin-left:445px;
+    margin-top: -285px;
+    font-size: 15px;
+}
+.p2{
+    margin-top: -15px;
+    font-size: 15px;
+}
+.img3{
+    width: 265px;
+    height: 270px;
+    margin-left: 22px;
+}
+.table2{
+    margin-left: -31px;
+    text-align: center;
+}
+.table2 th{
+    width: 30%;
+    text-align: center;
+}
+.articlebutton {
+    margin-left:20px;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    text-align: center;
+    background-color: rgb(239, 196, 121);
+    text-decoration: none;
+    font: Arial;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.articlebutton:hover {
+        padding: 5px 70px;
+        color:rgb(220, 11, 11);
+        transition: 1.5s;
+} 
+.fin{
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px dotted rgb(216, 216, 129);
+    background-color: rgb(216, 216, 129);
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+footer h3{
+    color:rgb(216, 216, 129);
+    font-size: 13px;
+    margin-left: 300px;
+}
+.arh3{
+    /* background-color: #efebeb; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+}
+.finish{
+    border-radius: 3px;
+    margin-top: 70px;
+    background-color: #f3f2f2;
+    padding: 7px;
+    color:black;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 31px;
+    margin-bottom: -1350px ;
+}
+.finish el{
+    color:rgb(218, 54, 54);
+}
+.topbutton {
+    width:20px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+.btn-group{
+    margin-left: -2px;
+}
+.btn-group button {
+    background-color: bisque; /* Зеленый фон */
+    border: none;
+    color: red; /* Белый текст */
+    padding: 10px 24px; /* Некоторый отступ */
+    margin: -2px;
+    cursor: pointer; /* Иконка указателя/руки */
+    float: center; /* Выстраиваем кнопки рядом друг с другом */
+}
+.btn-group button:not(:last-child) {
+    border-right: none; /* Исключаем двойную рамку */
+  }
+  /* Сбрасываем обтекание (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* Добавляем фон при наведении курсора */
+.btn-group button:hover {
+    background-color:rgb(130, 20, 22);
+    color:white;
+    transition: 1s;
+  }
